@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <%- include ('template/nav') %>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hola, mi nombre es</div>
+                <div class="text-2">Nicolas Garcia</div>
+                <div class="text-3">y yo soy <span class="typing"></span></div>
+                <a href="#">Contrátame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Acerca de mí</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/profile-1.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Soy Nicolas y soy un <span class="typing-2"></span></div>
+                    <p>Soy una persona dinámica a quien le gusta adquirir nuevos conocimientos cada día, persona íntegra, responsable, respetuosa, colaboradora, dedicada, capaz de cumplir con las funciones que me sean asignadas, estoy muy seguro de las capacidades que tengo como persona, siempre con la mentalidad y disposición de seguir creciendo tanto como personal como intelectualmente, cumpliendo a cabalidad y obteniendo muy buenos resultados.</p>
+                    <a href="#">Descargar el currículum</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Mi equipo</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="img/profile-1.jpg" alt="">
+                        <div class="text">Nicolas Garcia Bareño</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/profile-2.jpeg" alt="">
+                        <div class="text">Diego Alexander Parra</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/profile-3.jpeg" alt="">
+                        <div class="text">Angie Paola Pinilla</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/profile-4.jpeg" alt="">
+                        <div class="text">Daniel Fernando Sierra</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include ('template/footer') %>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
